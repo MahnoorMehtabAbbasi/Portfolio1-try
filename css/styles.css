@@ -1,0 +1,155 @@
+
+body
+{
+  background-color:black;
+  font-family:sans-serif;
+  
+}
+.container-fluid
+{
+
+/* Four values: top, right, bottom, left */
+padding: 0px 0px 0px 0px;
+overflow-x: hidden;
+}
+
+#mainNavbar
+{
+  font-size: 20px;
+  font-weight: 100;
+  background-color: #343a40;
+  width: 100%;
+  padding: 5px;
+}
+#mainNavbar .navbar-brand
+{
+  color:	rgb(210, 45, 45);
+  margin-right: 700px;
+  font-weight: bold;
+  background-color:black;
+  padding: 5px;
+  
+
+}
+#mainNavbar .nav-link
+{
+  color: white;  
+}
+#mainNavbar .nav-link:hover
+{
+  color:	rgb(210, 45, 45);
+  background-color:black;
+  padding: 5px;
+}
+
+#contentmm
+{
+  padding-top: 170px;
+  color: white;
+  text-align: inline;
+}
+#contentmm i
+{
+  padding: 10px;
+}
+img
+{
+width: 250px;
+/* Four values: top, right, bottom, left */
+margin: 150px 100px 125px 100px;
+}
+#footer
+{
+  
+  background-color:#343a40 ;
+  padding: 20px;
+  
+}
+#footer i
+{
+  /* Four values: top, right, bottom, left */
+ padding: 10px 20px 0px 0px;
+
+}
+#footer button
+{
+  background-color: black;
+  color:rgb(210, 45, 45); ;
+}
+@media  (max-width: 1200px) 
+{
+#mainNavbar .navbar-brand
+{
+  margin-right: 300px;
+}
+
+#contentmm
+{
+  padding-left: 20px;
+  padding-right: 10px;
+}
+}
+
+
+@media (max-width: 991.98px) 
+{
+#image-change
+{
+  flex-direction: column-reverse;
+}
+img 
+{
+  padding-top: 20px;
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+
+}
+#contentmm
+{
+  padding: 30px;
+}
+#contentmm h1,h2,h3
+{
+  font-size: medium;
+
+}
+#contentmm p
+{
+ font-size: small;
+ text-align: center;
+}
+}
+
+  
+ @media (max-width: 575.98px) 
+ {
+img 
+{
+     width: 150px;
+}
+      #mainNavbar .navbar-brand
+{
+        margin-right: 100px;
+}
+      #contentmm
+{
+  padding:30px;
+}
+      #footer
+{
+  padding:10px;
+}
+#footer-gmail
+{
+  font-size: medium;
+}
+}
+  
+    
+   
+  
+  
+  
+ 
+
